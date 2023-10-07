@@ -1,0 +1,228 @@
+
+
+############################################################################
+
+
+[2021-01-19 21:47:29]  /usr/local/texlive/2020/bin/x86_64-linux/autoinst, version 20201218
+
+Command was:
+
+    "/usr/local/texlive/2020/bin/x86_64-linux/autoinst -target=texmf -vendor=public -typeface=cascadia-code -encoding=OT1,T1,TS1,LY1 CascadiaCod3-Bold.otf CascadiaCod3-ExtraLight.otf CascadiaCod3-Light.otf CascadiaCod3-Regular.otf CascadiaCod3-SemiBold.otf CascadiaCod3-SemiLight.otf"
+
+----------------------------------------------------------------------------
+
+I'm using the following options:
+
+    encoding(s):        OT1, T1, LY1
+    NFSS:               rm (serif)
+
+    lining:             yes
+    oldstyle:           yes
+    proportional:       yes
+    tabular:            yes
+    ts1:                yes
+    smallcaps:          yes
+    swash:              yes
+    titling:            yes
+    superiors:          yes
+    inferiors:          none
+    ornaments:          yes
+    fractions:          no
+    ligatures:          yes
+
+    target:             texmf
+    extra:              
+
+    figurekern:         keep
+
+    nfssweight:         
+    nfsswidth:          
+
+    math:               no
+    mathspacing:        0
+
+    fontname suffix:    (none)
+
+----------------------------------------------------------------------------
+
+Results of font info parsing:
+
+    CascadiaCod3-Bold.otf
+        Name:       CascadiaCod3-Bold
+        Family:     CascadiaCodThree
+        Subfamily:  
+        Weight:     bold (700)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, sinf, ss02, ss19, subs, sups, zero
+
+    CascadiaCod3-ExtraLight.otf
+        Name:       CascadiaCod3-ExtraLight
+        Family:     CascadiaCodThree
+        Subfamily:  
+        Weight:     extralight (200)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, sinf, ss02, ss19, subs, sups, zero
+
+    CascadiaCod3-Light.otf
+        Name:       CascadiaCod3-Light
+        Family:     CascadiaCodThree
+        Subfamily:  
+        Weight:     light (300)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, sinf, ss02, ss19, subs, sups, zero
+
+    CascadiaCod3-Regular.otf
+        Name:       CascadiaCod3-Regular
+        Family:     CascadiaCodThree
+        Subfamily:  
+        Weight:     regular (400)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, sinf, ss02, ss19, subs, sups, zero
+
+    CascadiaCod3-SemiBold.otf
+        Name:       CascadiaCod3-SemiBold
+        Family:     CascadiaCodThree
+        Subfamily:  
+        Weight:     semibold (600)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, sinf, ss02, ss19, subs, sups, zero
+
+    CascadiaCod3-SemiLight.otf
+        Name:       CascadiaCod3-SemiLight
+        Family:     CascadiaCodThree
+        Subfamily:  
+        Weight:     semilight (350)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, sinf, ss02, ss19, subs, sups, zero
+
+----------------------------------------------------------------------------
+
+NFSS mappings:
+
+    ul  =>  
+    el  =>  extralight
+    l   =>  light
+    sl  =>  semilight
+    m   =>  regular
+    sb  =>  semibold
+    b   =>  bold
+    eb  =>  
+    ub  =>  
+
+    uc  =>  
+    ec  =>  
+    c   =>  
+    sc  =>  
+    m   =>  regular
+    sx  =>  
+    x   =>  
+    ex  =>  
+    ux  =>  
+
+    ------------------------------------------------------------------------
+
+    CascadiaCod3-Bold.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaCod3-ExtraLight.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaCod3-Light.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaCod3-Regular.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaCod3-SemiBold.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaCod3-SemiLight.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       

@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_i3ioen3bplo55fam3kxhynteph
-% Encoding created by otftotfm on Tue Jan 19 21:47:29 2021
+% Encoding created by otftotfm on Tue Sep 26 20:27:04 2023
 % Command line follows encoding
 /AutoEnc_i3ioen3bplo55fam3kxhynteph [
 %00
@@ -54,10 +54,10 @@
   /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /germandbls
 ] def
 % Command line: 'otftotfm --automatic --encoding=fontools_t1
-% --tfm-directory=texmf/fonts/tfm/public/cascadia-code
-% --vf-directory=texmf/fonts/vf/public/cascadia-code
-% --type1-directory=texmf/fonts/type1/public/cascadia-code
-% --encoding-directory=texmf/fonts/enc/dvips/cascadia-code
-% --map-file=texmf/fonts/map/dvips/cascadia-code/CascadiaCodThree.map
+% --tfm-directory=../../cascadia-code.2/texmf/fonts/tfm/public/cascadia-code
+% --vf-directory=../../cascadia-code.2/texmf/fonts/vf/public/cascadia-code
+% --type1-directory=../../cascadia-code.2/texmf/fonts/type1/public/cascadia-code
+% --encoding-directory=../../cascadia-code.2/texmf/fonts/enc/dvips/cascadia-code
+% --map-file=../../cascadia-code.2/texmf/fonts/map/dvips/cascadia-code/CascadiaCodePL.map
 % --no-updmap --force --coding-scheme=EXTENDED TEX FONT ENCODING - LATIN
-% CascadiaCod3-Bold.otf CascadiaCod3-Bold-tlf-t1'
+% CascadiaCodePL-BoldItalic.otf CascadiaCodePL-BoldItalic-tlf-t1'

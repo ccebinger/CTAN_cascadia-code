@@ -1,0 +1,408 @@
+
+
+############################################################################
+
+
+[2023-09-26 20:27:47]  /usr/local/texlive/2020/bin/x86_64-linux/autoinst, version 20201218
+
+Command was:
+
+    "/usr/local/texlive/2020/bin/x86_64-linux/autoinst -target=../../cascadia-code.2/texmf -vendor=public -typeface=cascadia-code -encoding=OT1,T1,TS1,LY1,LGR CascadiaCode-BoldItalic.otf CascadiaCode-Bold.otf CascadiaCode-ExtraLightItalic.otf CascadiaCode-ExtraLight.otf CascadiaCode-Italic.otf CascadiaCode-LightItalic.otf CascadiaCode-Light.otf CascadiaCodePL-BoldItalic.otf CascadiaCodePL-Bold.otf CascadiaCodePL-ExtraLightItalic.otf CascadiaCodePL-ExtraLight.otf CascadiaCodePL-Italic.otf CascadiaCodePL-LightItalic.otf CascadiaCodePL-Light.otf CascadiaCodePL-Regular.otf CascadiaCodePL-SemiBoldItalic.otf CascadiaCodePL-SemiBold.otf CascadiaCodePL-SemiLightItalic.otf CascadiaCodePL-SemiLight.otf CascadiaCode-Regular.otf CascadiaCode-SemiBoldItalic.otf CascadiaCode-SemiBold.otf CascadiaCode-SemiLightItalic.otf CascadiaCode-SemiLight.otf CascadiaMono-BoldItalic.otf CascadiaMono-Bold.otf CascadiaMono-ExtraLightItalic.otf CascadiaMono-ExtraLight.otf CascadiaMono-Italic.otf CascadiaMono-LightItalic.otf CascadiaMono-Light.otf CascadiaMonoPL-BoldItalic.otf CascadiaMonoPL-Bold.otf CascadiaMonoPL-ExtraLightItalic.otf CascadiaMonoPL-ExtraLight.otf CascadiaMonoPL-Italic.otf CascadiaMonoPL-LightItalic.otf CascadiaMonoPL-Light.otf CascadiaMonoPL-Regular.otf CascadiaMonoPL-SemiBoldItalic.otf CascadiaMonoPL-SemiBold.otf CascadiaMonoPL-SemiLightItalic.otf CascadiaMonoPL-SemiLight.otf CascadiaMono-Regular.otf CascadiaMono-SemiBoldItalic.otf CascadiaMono-SemiBold.otf CascadiaMono-SemiLightItalic.otf CascadiaMono-SemiLight.otf"
+
+----------------------------------------------------------------------------
+
+I'm using the following options:
+
+    encoding(s):        OT1, T1, LY1, LGR
+    NFSS:               tt (typewriter)
+
+    lining:             yes
+    oldstyle:           yes
+    proportional:       yes
+    tabular:            yes
+    ts1:                yes
+    smallcaps:          yes
+    swash:              yes
+    titling:            yes
+    superiors:          yes
+    inferiors:          none
+    ornaments:          yes
+    fractions:          no
+    ligatures:          no
+
+    target:             ../../cascadia-code.2/texmf
+    extra:              
+
+    figurekern:         keep
+
+    nfssweight:         
+    nfsswidth:          
+
+    math:               no
+    mathspacing:        0
+
+    fontname suffix:    (none)
+
+----------------------------------------------------------------------------
+
+Results of font info parsing:
+
+    CascadiaMono-BoldItalic.otf
+        Name:       CascadiaMono-BoldItalic
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     bold (700)
+        Width:      regular (5)
+        Shape:      italic 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, salt, sinf, ss01, ss02, ss03, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-Bold.otf
+        Name:       CascadiaMono-Bold
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     bold (700)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, fina, frac, init, mark, medi, mkmk, numr, ordn, rclt, rlig, sinf, ss02, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-ExtraLightItalic.otf
+        Name:       CascadiaMono-ExtraLightItalic
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     extralight (200)
+        Width:      regular (5)
+        Shape:      italic 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, salt, sinf, ss01, ss02, ss03, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-ExtraLight.otf
+        Name:       CascadiaMono-ExtraLight
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     extralight (200)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, fina, frac, init, mark, medi, mkmk, numr, ordn, rclt, rlig, sinf, ss02, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-Italic.otf
+        Name:       CascadiaMono-Italic
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     regular (400)
+        Width:      regular (5)
+        Shape:      italic 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, salt, sinf, ss01, ss02, ss03, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-LightItalic.otf
+        Name:       CascadiaMono-LightItalic
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     light (300)
+        Width:      regular (5)
+        Shape:      italic 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, salt, sinf, ss01, ss02, ss03, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-Light.otf
+        Name:       CascadiaMono-Light
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     light (300)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, fina, frac, init, mark, medi, mkmk, numr, ordn, rclt, rlig, sinf, ss02, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-Regular.otf
+        Name:       CascadiaMono-Regular
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     regular (400)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, fina, frac, init, mark, medi, mkmk, numr, ordn, rclt, rlig, sinf, ss02, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-SemiBoldItalic.otf
+        Name:       CascadiaMono-SemiBoldItalic
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     semibold (600)
+        Width:      regular (5)
+        Shape:      italic 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, salt, sinf, ss01, ss02, ss03, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-SemiBold.otf
+        Name:       CascadiaMono-SemiBold
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     semibold (600)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, fina, frac, init, mark, medi, mkmk, numr, ordn, rclt, rlig, sinf, ss02, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-SemiLightItalic.otf
+        Name:       CascadiaMono-SemiLightItalic
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     semilight (350)
+        Width:      regular (5)
+        Shape:      italic 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, frac, mark, mkmk, numr, ordn, rclt, salt, sinf, ss01, ss02, ss03, ss19, ss20, subs, sups, zero
+
+    CascadiaMono-SemiLight.otf
+        Name:       CascadiaMono-SemiLight
+        Family:     CascadiaMono
+        Subfamily:  
+        Weight:     semilight (350)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, calt, case, ccmp, dnom, fina, frac, init, mark, medi, mkmk, numr, ordn, rclt, rlig, sinf, ss02, ss19, ss20, subs, sups, zero
+
+----------------------------------------------------------------------------
+
+NFSS mappings:
+
+    ul  =>  
+    el  =>  extralight
+    l   =>  light
+    sl  =>  semilight
+    m   =>  regular
+    sb  =>  semibold
+    b   =>  bold
+    eb  =>  
+    ub  =>  
+
+    uc  =>  
+    ec  =>  
+    c   =>  
+    sc  =>  
+    m   =>  regular
+    sx  =>  
+    x   =>  
+    ex  =>  
+    ux  =>  
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-Bold.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     n       sups
+            LGR     TLF     n       
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-BoldItalic.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     it      sups
+            LGR     TLF     it      
+            LY1     Sup     it      sups
+            LY1     TLF     it      
+            OT1     Sup     it      sups
+            OT1     TLF     it      
+            T1      Sup     it      sups
+            T1      TLF     it      
+            TS1     TLF     it      
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-ExtraLight.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     n       sups
+            LGR     TLF     n       
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-ExtraLightItalic.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     it      sups
+            LGR     TLF     it      
+            LY1     Sup     it      sups
+            LY1     TLF     it      
+            OT1     Sup     it      sups
+            OT1     TLF     it      
+            T1      Sup     it      sups
+            T1      TLF     it      
+            TS1     TLF     it      
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-Italic.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     it      sups
+            LGR     TLF     it      
+            LY1     Sup     it      sups
+            LY1     TLF     it      
+            OT1     Sup     it      sups
+            OT1     TLF     it      
+            T1      Sup     it      sups
+            T1      TLF     it      
+            TS1     TLF     it      
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-Light.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     n       sups
+            LGR     TLF     n       
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-LightItalic.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     it      sups
+            LGR     TLF     it      
+            LY1     Sup     it      sups
+            LY1     TLF     it      
+            OT1     Sup     it      sups
+            OT1     TLF     it      
+            T1      Sup     it      sups
+            T1      TLF     it      
+            TS1     TLF     it      
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-Regular.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     n       sups
+            LGR     TLF     n       
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-SemiBold.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     n       sups
+            LGR     TLF     n       
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-SemiBoldItalic.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     it      sups
+            LGR     TLF     it      
+            LY1     Sup     it      sups
+            LY1     TLF     it      
+            OT1     Sup     it      sups
+            OT1     TLF     it      
+            T1      Sup     it      sups
+            T1      TLF     it      
+            TS1     TLF     it      
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-SemiLight.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     n       sups
+            LGR     TLF     n       
+            LY1     Sup     n       sups
+            LY1     TLF     n       
+            OT1     Sup     n       sups
+            OT1     TLF     n       
+            T1      Sup     n       sups
+            T1      TLF     n       
+            TS1     TLF     n       
+
+    ------------------------------------------------------------------------
+
+    CascadiaMono-SemiLightItalic.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LGR     Sup     it      sups
+            LGR     TLF     it      
+            LY1     Sup     it      sups
+            LY1     TLF     it      
+            OT1     Sup     it      sups
+            OT1     TLF     it      
+            T1      Sup     it      sups
+            T1      TLF     it      
+            TS1     TLF     it      

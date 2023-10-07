@@ -1,20 +1,20 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{cascadia-code}
-    [2021/01/19 (Carl-Clemens Ebinger & autoinst)  Style file for Cascadia Code fonts.]
+    [2023/10/06 (Carl-Clemens Ebinger & autoinst)  Style file for CascadiaCode fonts.]
 
 \RequirePackage{xkeyval}
-\newcommand*{\CascadiaCodThree@scale}{1}
-\DeclareOptionX{scale}{\renewcommand*{\CascadiaCodThree@scale}{#1}}
-\DeclareOptionX{scaled}{\renewcommand*{\CascadiaCodThree@scale}{#1}}
+\newcommand*{\CascadiaCode@scale}{1}
+\DeclareOptionX{scale}{\renewcommand*{\CascadiaCode@scale}{#1}}
+\DeclareOptionX{scaled}{\renewcommand*{\CascadiaCode@scale}{#1}}
 
-\DeclareOptionX{lining}{\edef\CascadiaCodThree@figurestyle{LF}}
-\DeclareOptionX{tabular}{\edef\CascadiaCodThree@figurealign{T}}
+\DeclareOptionX{lining}{\edef\CascadiaCode@figurestyle{LF}}
+\DeclareOptionX{tabular}{\edef\CascadiaCode@figurealign{T}}
 \DeclareOptionX{mainfont}{
     \renewcommand{\familydefault}{\rmdefault}
 }
-\DeclareOptionX{semibold}{\edef\bfseries@rm{semibold}}
-\DeclareOptionX{bold}{\edef\bfseries@rm{bold}}
-\DeclareOptionX{regular}{\edef\mdseries@rm{regular}}
+\DeclareOptionX{semibold}{\edef\bfseries@tt{semibold}}
+\DeclareOptionX{bold}{\edef\bfseries@tt{bold}}
+\DeclareOptionX{regular}{\edef\mdseries@tt{regular}}
 \ExecuteOptionsX{lining,tabular}
 \ProcessOptionsX\relax
 
@@ -37,24 +37,24 @@
 
 %   Here we implement the scale=MatchLowercase option.
 %   If this is given, we must compute the correct value of
-%   the "\CascadiaCodThree@scale" parameter before loading the .fd files;
+%   the "\CascadiaCode@scale" parameter before loading the .fd files;
 %   but to determine that value we of course need the font's x-height.
 %   To avoid triggering the loading of .fd files,
 %   we use plain TeX's \font primitive to load the testfont.
 %   We then compute the ratio of the current x-height to our font's x-height;
-%   this is the "\CascadiaCodThree@scale" we will pass to the .fd files.
-\ifthenelse{\equal{\CascadiaCodThree@scale}{MatchLowercase}}
-    {   \newlength{\CascadiaCodThree@currentx}
-        \settoheight{\CascadiaCodThree@currentx}{x}
-        \newlength{\CascadiaCodThree@xheight}
-        \settoheight{\CascadiaCodThree@xheight}
-            {{\font\testfont=CascadiaCod3-Regular-tlf-ot1 at \f@size pt\testfont x}}
-        \renewcommand*{\CascadiaCodThree@scale}
-            {\strip@pt\dimexpr\number\numexpr\number\dimexpr\CascadiaCodThree@currentx\relax*65536/\number\dimexpr\CascadiaCodThree@xheight\relax\relax sp\relax}}
+%   this is the "\CascadiaCode@scale" we will pass to the .fd files.
+\ifthenelse{\equal{\CascadiaCode@scale}{MatchLowercase}}
+    {   \newlength{\CascadiaCode@currentx}
+        \settoheight{\CascadiaCode@currentx}{x}
+        \newlength{\CascadiaCode@xheight}
+        \settoheight{\CascadiaCode@xheight}
+            {{\font\testfont=CascadiaCode-Regular-tlf-ot1 at \f@size pt\testfont x}}
+        \renewcommand*{\CascadiaCode@scale}
+            {\strip@pt\dimexpr\number\numexpr\number\dimexpr\CascadiaCode@currentx\relax*65536/\number\dimexpr\CascadiaCode@xheight\relax\relax sp\relax}}
     {}
 
 \renewcommand*
     {\ttdefault}
-    {CascadiaCodThree-\CascadiaCodThree@figurealign\CascadiaCodThree@figurestyle}
+    {CascadiaCode-\CascadiaCode@figurealign\CascadiaCode@figurestyle}
 
 \endinput
